@@ -1,0 +1,115 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    display:grid;
+    grid-template-columns: 1fr;
+    font-family: 'Arial Narrow Bold', sans-serif;
+}
+
+#bodyStyle
+{
+    margin: 35px 350px;
+    border: 1px solid white;
+    border-radius: 35px;
+    padding: 45px 35px;
+    box-shadow: 1px -1px 21px 3px rgba(152, 211, 206, 0.4);
+    justify-content: center;
+    align-items: center;
+}
+h1
+{
+   font-size: 2rem;
+   color: rgb(73, 71, 71);
+   margin-bottom: 35px;
+
+}
+
+#colorH1
+{
+    color: #4DA871;
+    font-weight:bold;
+    margin-bottom: 35px;
+}
+
+.fields > label
+{
+    display:block;
+    margin-bottom: 9px;
+    color: #686965;
+}
+
+input[type="text"]
+{
+    background-color: rgba(233, 227, 227, 0.493);
+    width: 100%;
+    border-radius: 12px;
+    border: none;
+    padding: 13px 7px;
+    margin-top: 7px;
+    font-size: 1.2rem;
+}
+
+#intRate
+{
+    background-color: #4da87179;
+   
+}
+.fields
+{
+    margin-bottom: 25px;
+
+}
+
+#getLoanPaymentsBtn
+{
+    background-color: #4DA871;
+    color: white;
+    border-radius: 12px;
+    padding: 12px 10px;
+    width: 100%;
+    font-size: 18px;
+    border: none;;
+    margin-top: 25px;
+}
+
+.error
+{
+    color:red;
+    font-size: .9rem
+}
+
+.hide
+{
+    display:none;
+}
+
+.modal
+{
+    background-color: #d2dfd65b;
+    position: absolute;
+    z-index: 0;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+
+}
+
+.modal-container
+{
+    background-color: #0f83325b;
+    position: relative;
+    z-index: 1;
+    left:40%;
+    top: 35%;
+    width: 20%;
+    height: 20%;
+    padding: 35px;
+    border-radius: 25px;
+    line-height: 2;
+}
