@@ -1,0 +1,67 @@
+*
+{
+    margin: 0; 
+    padding:0;
+}
+
+body
+{
+    margin: 45px 65px;
+    font-size: 1.4rem;
+}
+
+h1
+{
+    font-size:2.2rem;
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+
+.grid
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 4px;
+   
+}
+
+#headings > h3
+{
+    font-size: 1.4rem;
+    font-weight: 600;
+    display:inline-block;
+}
+
+.minus , .add
+{
+    padding: 7px;
+    background-color: rgb(226, 224, 224);
+    border: 1px solid rgb(167, 165, 165);
+}
+
+.charges > p
+{
+    font-size: 1.4rem;
+}
+
+.charges 
+{
+    margin: 35px 0;
+}
+
+
+
+
+#promocode , #calculate
+{
+    background-color: rgb(226, 224, 224);
+    padding: 4px 9px;
+    border: 1px solid rgb(167, 165, 165);
+    font-size: 1.2rem;
+}
+
+#calculate
+{
+    margin-top: 15px;
+}
+
